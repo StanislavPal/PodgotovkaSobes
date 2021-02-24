@@ -59,6 +59,14 @@ public class Main {
         }
 
         System.out.println("======STEP 6=======");
+        System.out.println("Делаем contains");
+        System.out.println("----------------------------------------------------------------------------");
+        map.containsKey(testAnimal);
+        System.out.println(testAnimal + " = " + map.get(testAnimal));
+        System.out.println(animals1 + " = " + map.get(animals1));
+        System.out.println();
+
+        System.out.println("======STEP 7=======");
         System.out.println("Возвращаем ключу прежние значения полей");
         System.out.println("----------------------------------------------------------------------------");
         animals1.setId(1);
